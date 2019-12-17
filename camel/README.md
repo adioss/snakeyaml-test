@@ -5,9 +5,9 @@ mvn clean package
 ```
 * launch
 ```
-com.adioss.snakeyaml.test.camel.YamlConsumer.main 
+com.adioss.snakeyaml.camel.YamlConsumer.main 
 or
-java -cp camel-1.0-SNAPSHOT.jar com.adioss.snakeyaml.test.camel.YamlConsumer {FOLDER_TO_PARSE}
+java -cp target/camel-1.0-SNAPSHOT.jar com.adioss.snakeyaml.camel.YamlConsumer {FOLDER_TO_PARSE}
 ```
 * by default, parsed files are located in folder:
 ```

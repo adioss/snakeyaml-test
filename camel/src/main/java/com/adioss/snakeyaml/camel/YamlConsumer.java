@@ -1,4 +1,4 @@
-package com.adioss.snakeyaml.test.camel;
+package com.adioss.snakeyaml.camel;
 
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
@@ -6,7 +6,7 @@ import org.apache.camel.main.Main;
 import org.apache.camel.model.dataformat.YAMLLibrary;
 
 /**
- * java -cp target/camel-1.0-SNAPSHOT.jar com.adioss.snakeyaml.test.camel.YamlConsumer {FOLDER_TO_PARSE}
+ * java -cp target/camel-1.0-SNAPSHOT.jar com.adioss.snakeyaml.camel.YamlConsumer {FOLDER_TO_PARSE}
  */
 public class YamlConsumer {
 

@@ -17,6 +17,7 @@ public class YamlConsumer {
             @Override
             public void configure() {
                 from("file://" + path + "?noop=true")
+                        .filter().simple("${file:size} < 1000000")
                         .unmarshal().yaml(YAMLLibrary.SnakeYAML)
                         .log(LoggingLevel.INFO, "${body}");
             }

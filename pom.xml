@@ -11,6 +11,7 @@
     <modules>
         <module>camel</module>
         <module>basic</module>
+        <module>snake-yaml-engine</module>
     </modules>
 
     <name>aggregator</name>
